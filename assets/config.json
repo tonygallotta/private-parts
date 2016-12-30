@@ -1,11 +1,11 @@
 {
   "pageOptions": [
     {
-      "headerImage": "http://placehold.it/250x250"
+      "headerImage": ""
     , "headline": "Warehouse Manager Scanner Privacy Policy"
     , "subHeading": ""
     , "footerContent": ""
-    , "collectedSectionHeader": "What do we collect?"
+    , "collectedSectionHeader": "What do we access?"
     , "sharedSectionHeader": "Who do we share with?"
     }
   ]

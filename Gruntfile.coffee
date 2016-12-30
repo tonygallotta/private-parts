@@ -38,14 +38,14 @@ module.exports = (grunt) ->
           pretty: true
         files:
           'build/html/main.html': ['assets/main.jade']
-          'build/html/index.html': ['assets/index.jade']
+          'build/html/privacy.html': ['assets/index.jade']
       release:
         options:
           data: appConfig
           pretty: false
         files:
           'build/html/main.html': ['assets/main.jade']
-          'build/html/index.html': ['assets/index.jade']
+          'build/html/privacy.html': ['assets/index.jade']
 
     requirejs:
       css: options:
@@ -83,7 +83,7 @@ module.exports = (grunt) ->
       main:
         files:
           'dist/main.html': 'build/html/main.html'
-          'dist/index.html': 'build/html/index.html'
+          'dist/privacy.html': 'build/html/index.html'
 
     autoshot:
       normal:
