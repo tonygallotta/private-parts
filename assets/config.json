@@ -2,61 +2,25 @@
   "pageOptions": [
     {
       "headerImage": "http://placehold.it/250x250"
-    , "headline": "Short Form Privacy Policy"
-    , "subHeading": "A statement about your short form privacy policy. Be sure to include a <a href='#'>link</a> to your long form Privacy Policy."
-    , "footerContent": "This short form privacy policy was built with <a href='http://lookout.github.io/private-parts'>Private Parts</a>."
+    , "headline": "Warehouse Manager Scanner Privacy Policy"
+    , "subHeading": ""
+    , "footerContent": ""
     , "collectedSectionHeader": "What do we collect?"
     , "sharedSectionHeader": "Who do we share with?"
     }
   ]
   , "collected": [
     {
-      "name": "Contacts"
-    , "emptyText": "We DON'T collect them."
-    , "class": "contacts"
-    , "options": ["<p>A statement describing what you collect in this category and why your product needs to collect it. Limit yourself to just a sentence or two.</p>"]
-    }
-  , {
-      "name": "Biometrics"
-    , "emptyText": "We DON'T collect them."
-    , "class": "biometrics"
-    , "options": ["<p>A statement describing what you collect in this category and why your product needs to collect it. Limit yourself to just a sentence or two.</p>"]
-    }
-  , {
-      "name": "Health"
-    , "emptyText": "We DON'T collect them."
-    , "class": "health"
-    , "options": ["<p>A statement describing what you collect in this category and why your product needs to collect it. Limit yourself to just a sentence or two.</p>"]
-    }
-  , {
-      "name": "Phone / Text Logs"
-    , "emptyText": "We DON'T collect them."
-    , "class": "phone-text-logs"
-    , "options": ["<p>A statement describing what you collect in this category and why your product needs to collect it. Limit yourself to just a sentence or two.</p>"]
-    }
-  , {
-      "name": "Browser History"
-    , "emptyText": "We DON'T collect them."
-    , "class": "browser-history"
-    , "options": ["<p>A statement describing what you collect in this category and why your product needs to collect it. Limit yourself to just a sentence or two.</p>"]
-    }
-  , {
-      "name": "Location"
-    , "emptyText": "We DON'T collect them."
-    , "class": "location"
-    , "options": ["<p>A statement describing what you collect in this category and why your product needs to collect it. Limit yourself to just a sentence or two.</p>"]
-    }
-  , {
-      "name": "Financial Info"
-    , "emptyText": "We DON'T collect them."
-    , "class": "financial-info"
-    , "options": ["<p>A statement describing what you collect in this category and why your product needs to collect it. Limit yourself to just a sentence or two.</p>"]
-    }
-  , {
-      "name": "User Files"
+      "name": "Camera Photos"
     , "emptyText": "We DON'T collect them."
     , "class": "user-files"
-    , "options": ["<p>A statement describing what you collect in this category and why your product needs to collect it. Limit yourself to just a sentence or two.</p>"]
+    , "options": ["<p>Collected only when selected by the user for upload</p>"]
+    },
+    {
+      "name": "Access to storage"
+    , "emptyText": "We DON'T collect them."
+    , "class": "user-files"
+    , "options": ["<p>This application may access the file system to store and retrieve files that are too large to fit in memory</p>"]
     }
   ]
   , "shared": [
@@ -65,14 +29,14 @@
     , "description": "Companies that provide mobile connections."
     , "emptyText": "We DON'T share with them."
     , "class": "carriers"
-    , "options": ["A statement describing what user data you share with this group and why you might share that. Limit yourself to just a sentence or two."]
+    , "options": []
     }
   , {
       "name": "Government"
     , "description": "Sharing with the government, except where required by law or expressly permitted in an emergency."
     , "emptyText": "We DON'T share with them unless the law says we have to."
     , "class": "government"
-    , "options": ["A statement describing what user data you share with this group and why you might share that. Limit yourself to just a sentence or two."]
+    , "options": []
     }
   , {
       "name": "Data Resellers"
